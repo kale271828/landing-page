@@ -18,7 +18,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
 .header-list ul {
@@ -27,6 +27,57 @@ body {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
-    padding-right: 150px;
+    padding-right: 200px;
+}
+
+.awesome {
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    max-width: 350px;
+    gap: 8px;
+}
+
+.left .first {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+.left .second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left button {
+    max-width: 120px;
+    background-color: rgb(21, 119, 184);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.right {
+    padding-right: 200px;
+}
+
+.right .box {
+    height: 200px;
+    width: 400px;
+    color: white;
+    background-color: rgb(176, 170, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
