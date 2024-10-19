@@ -121,3 +121,78 @@ body {
     color: rgb(157, 150, 150);
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: rgb(192, 185, 185);
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quote .text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote .thor {
+    align-self: end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .box {
+    height: 150px;
+    width: 1000px;
+    background-color: rgb(18, 115, 189);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1 {
+    color: white;
+    font-size: 26px;
+}
+
+.text2 {
+    color: rgb(228, 215, 215);
+    font-size: 18px;
+    font-weight: 150;
+}
+
+.signup {
+    background-color: rgb(18, 115, 189);
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer .text {
+    font-size: 18px;
+    color: rgb(218, 210, 210);
+}
