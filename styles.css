@@ -81,3 +81,43 @@ body {
     align-items: center;
 }
 
+.random {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.random .title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info .box {
+    width: 130px;
+    height: 130px;
+    border: 3px solid rgb(45, 170, 212);
+    border-radius: 12px;
+}
+
+.info .text {
+    max-width: 140px;
+    color: rgb(157, 150, 150);
+}
+
